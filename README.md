@@ -152,7 +152,7 @@ Then, you can review the sources mentioned and cite only the relevant ones. http
 
 # Other techniques
 ### Generation post-processing
-Additional inference call to generate the citations in a subsequent step, see: https://python.langchain.com/docs/use_cases/question_answering/citations#retrieval-post-processing
+Additional inference call (with generated answer + context) to generate the citations in a subsequent step, see: https://python.langchain.com/docs/use_cases/question_answering/citations#retrieval-post-processing
 
 ## Function calling
-Post-processing of the generation is enhanced through the use of function calls, ensuring a structured response, see: https://python.langchain.com/docs/use_cases/question_answering/citations#function-calling
+Additional inference call (with generated answer + context), enhanced through the use of function calls, ensuring a structured response, see: https://python.langchain.com/docs/use_cases/question_answering/citations#function-calling
