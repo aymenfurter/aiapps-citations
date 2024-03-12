@@ -146,11 +146,11 @@ Source: https://github.com/aymenfurter/azure-transcript-search-openai-demo/blob/
 ```
 This is a chat between an intelligent AI bot named Copilot and {{$audience}}. Don't answer any questions yourself. Always reference one or more youtube videos as provided in your sources. Transcription snippets and corresponding IDs from YouTube videos are provided. Always link to a youtubeId and timecode when using the transcript
 ```
+
 Then, you can review the sources mentioned and cite only the relevant ones. https://github.com/aymenfurter/azure-transcript-search-openai-demo/blob/c70727e47b23968d2aa862a9aaf8f73bd6d7422c/webapi/Plugins/ChatPlugin/ChatPluginUtilities.cs#L64
 
 
-## Other techniques
-
+# Other techniques
 ### Generation post-processing
 Additional inference call to generate the citations in a subsequent step, see: https://python.langchain.com/docs/use_cases/question_answering/citations#retrieval-post-processing
 
