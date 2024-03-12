@@ -3,7 +3,7 @@
 ## Azure OpenAI - Datasources
 When utilizing a data source with Azure OpenAI, citations are included in an attribute named context.
 
-Request
+### Request
 ```bash
 curl -i -X POST $api_base/openai/deployments/$deployment_id/extensions/chat/completions?api-version=2023-08-01-preview \
   -H "Content-Type: application/json" \
@@ -48,7 +48,7 @@ curl -i -X POST $api_base/openai/deployments/$deployment_id/extensions/chat/comp
 }'
 ```
 
-Response
+### Response
 ```json
 {
   "id": "17bd56b9-e4be-4503-97da-6f63e95a69d7",
